@@ -202,7 +202,7 @@ p {
 
 .container section {
     background-color: white;
-    padding: 20px 8px;
+    padding: 20px 16px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -222,6 +222,8 @@ p {
 
 .container h2 {
     text-align: left;
+    margin-left: 10px;
+
 }
 
 
@@ -245,7 +247,7 @@ p {
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    margin: 20px 0;
+    margin: 20px 0 0px 10px;
 }
 
 
@@ -387,6 +389,9 @@ p {
         text-align: center;
     }
 
+    .container section {
+        padding-left: 14px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -422,5 +427,10 @@ p {
 
     .container h2 {
         text-align: center;
+    }
+
+    .container section {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
