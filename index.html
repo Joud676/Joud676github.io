@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joud's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../Images/nameLogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="headerSection">
+
+            <div class="icons">
+                <a
+                    href="https://www.linkedin.com/in/joud-b-166528279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="icon" src="../Images/linkedin.png" alt="LinkedIn Logo" width="30" height="30">
+                </a>
+                <a href="https://github.com/Joud676">
+                    <img class="icon" src="../Images/github.png" alt="Github Logo" width="30" height="30">
+                </a>
+                <a href="https://x.com/Joud1J_">
+                    <img class="icon" src="../Images/xLogo.png" alt="X Logo" width="30" height="30">
+                </a>
+            </div>
+
+            <img id="nameLogo" src="../Images/nameLogo.png" alt="Name Logo" width="100" height="100">
+
+            <div class="center">
+                <input type="button" class="list" value="Skills" onclick="window.location.href='#imageContainer'">
+                <input type="button" class="list" value="Projects" onclick="window.location.href='#projects'">
+                <input type="button" class="list" value="Competitions" onclick="window.location.href='#competitions'">
+                <input type="button" class="list" value="Courses" onclick="window.location.href='#courses'">
+                <input type="button" class="list" value="Memberships" onclick="window.location.href='#memberships'">
+            </div>
+
+            <input id="contact" type="button" value="Contact"
+                onclick="window.location.href='mailto:joudj.batarfi@gmail.com'">
+        </div>
+    </header>
+
+
+
+
+
+    <section id="home">
+        <h1>Hello, I'm Joud Batarfi</h1>
+        <p>A <strong>Software Engineering Student</strong> at University of Jeddah with a passion for
+            technology,
+            problem-solving, and
+            innovation. Eager to apply
+            technical skills and creativity to develop impactful solutions. Committed to continuous learning and growth
+            in the field of software development
+        </p>
+
+    </section>
+
+    <div id="imageContainer">
+
+        <div id="animatedImages">
+            <img src="../Images/quran1.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/quran2.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/monshaat1.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/monshaat2.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/nasa1.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa2.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa3.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/quran1.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/quran2.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/monshaat1.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/monshaat2.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/nasa1.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa2.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa3.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/quran1.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/quran2.jpeg" alt="Quran Competition" width="150" height="210">
+            <img src="../Images/monshaat1.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/monshaat2.jpeg" alt="Monshaat Bootcamp" width="150" height="210">
+            <img src="../Images/nasa1.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa2.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+            <img src="../Images/nasa3.jpeg" alt="Nasa Space App Hackathon" width="150" height="210">
+        </div>
+
+    </div>
+
+    <button id="scrollToTopBtn">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+    <script>
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        scrollToTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <section class="infoContainer">
+
+        <img id="logo" src="../Images/logo.png" alt="Logo">
+
+        <h2>Skills</h2>
+
+        <div class="skillsContainer">
+            <img class="skills" src="../Images/java.png" alt="Java Logo">
+            <img class="skills" src="../Images/python.png" alt="Python Logo">
+            <img class="skills" src="../Images/mySQL.jpg" alt="mySQL Logo">
+            <img class="skills" src="../Images/figma.png" alt="Figma Logo">
+            <img class="skills" src="../Images/firebase.png" alt="Python Logo">
+        </div>
+    </section>
+
+
+    <section class="container" id="projects">
+        <h2>Projects</h2>
+
+        <section>
+            <h2>#01 Software Engineering Principles</h2>
+            <div class="card">
+                <img src="../Images/sneakpeek.png" alt="Sneak Peek Logo">
+                <p>
+                    <strong>Sneak Peek</strong> is an AI-powered interior design platform that transforms empty spaces.
+                    Users upload a
+                    photo,
+                    and the platform generates personalized designs. With Augmented Reality, they can visualize
+                    furniture in
+                    their space without commitment. It also compares prices across stores and connects users with
+                    trusted
+                    interior designers for expert advice, making design easy.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>#02 Software Projects Management</h2>
+            <div class="card">
+                <img src="../Images/EventKey.png" alt="EventKey Logo">
+                <p>
+                    <strong>Event Key</strong> is a revolutionary mobile app simplifying event planning in Saudi Arabia.
+                    It offers a
+                    one-stop platform
+                    for organizing events, providing access to catering, venues, decorations, and entertainment through
+                    strategic local partnerships. With a user-friendly interface and personalized recommendations, Event
+                    Key transforms how events are planned and executed.
+                </p>
+            </div>
+            <button class="showButton"
+                onclick="window.location.href='https://www.canva.com/design/DAGFzAkC084/ewJ7KUb5MLGE7neaUDpSMw/view?utm_content=DAGFzAkC084&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha6def01654'">
+                Brochure
+            </button>
+
+        </section>
+
+        <section>
+            <h2>#03 Human-Computer Interaction</h2>
+            <div class="card">
+                <img src="../Images/EasyMap.png" alt="Easy Map Logo">
+
+                <p>
+                    <strong>Easy Map</strong> is an innovative digital solution designed to simplify emergency indoor
+                    navigation with a user-friendly interface. It addresses challenges such as complexity, poor design,
+                    and
+                    accessibility by offering essential features like a traditional map that displays crowd density to
+                    aid
+                    in evacuation planning, while the Augmented Reality map visually guides users to the nearest safe
+                    exit
+                    with directional indicators and sound notifications to ensure clarity during emergencies.
+                    Additionally,
+                    a "Contact Us" feature facilitates direct communication for assistance.
+                </p>
+            </div>
+            <button class="showButton"
+                onclick="window.location.href='https://www.figma.com/proto/TzQcZ07A5C82wv6hfXPAO2/Emergency-Exit-Map---Easy-Map?node-id=70-4261&p=f&t=vKHe9FEKUYtb7CNG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3'">
+                Prototype
+            </button>
+        </section>
+
+        <section>
+            <h2>#04 Software Process Models</h2>
+            <div class="card">
+                <img src="../Images/Bloom.png" alt="Bloom Logo">
+                <p>
+                    <strong>Bloom</strong> is a user-friendly desktop application that unites plant enthusiasts,
+                    sellers, and buyers on a
+                    single platform. Built with <strong>JavaFX</strong>, Bloom offers a dual-interface system for
+                    seamless plant sales
+                    and
+                    care management. Sellers can easily upload plant details and care instructions, while customers can
+                    browse plants and manage their collections. With integrated care management tools like watering
+                    reminders and care guides, Bloom simplifies plant care and fosters a thriving community of plant
+                    lovers.
+                    All data is stored and managed using <strong>MySQL</strong>, ensuring efficient data handling.
+                </p>
+            </div>
+            <button class="showButton"
+                onclick="window.location.href='https://drive.google.com/file/d/18YF6VBKk4gGClqSfjoOtvkrzFPdpuQwI/view?usp=drive_link'">
+                Prototype</button>
+        </section>
+
+        <section>
+            <h2>#05 Internet of Things</h2>
+            <div class="card">
+                <img src="../Images/laserTagGame.png" alt="Laser Tag Game Logo">
+                <p>
+                    The <strong>IoT-based Laser Tag game</strong> integrates innovative technology for an interactive
+                    experience. Players
+                    register online and wear smart vests with <strong>laser sensors</strong>, <strong>RGB LEDs</strong>
+                    for hit feedback, and ultrasonic
+                    sensors for obstacle detection. Powered by an <strong>ESP32 microcontroller</strong>, the vest sends
+                    real-time hit
+                    data to the cloud via <strong>ThingSpeak</strong>, stores it in <strong>Firebase</strong>, and
+                    updates live scores and leaderboards on
+                    the website for detailed game results.
+                </p>
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <section class="container" id="competitions">
+        <h2>Competitions</h2>
+        <section id="jawwed">
+            <h2>#01 تحدي التقنية في خدمة القرآن الكريم وعلومه</h2>
+            <div class="card">
+                <img src="../Images/تطبيق-جَوِّد.png" alt="Jawwed Logo">
+
+                <p>
+                    شاركنا في <strong>تحدي التقنية في خدمة القرآن الكريم وعلومه</strong> ضمن مسار تقنيات التلعيب الرقمية
+                    والمرئية بجامعة
+                    جدة،
+                    وتمكنا من الفوز <strong>بالمركز الثاني</strong> من خلال فكرة <strong>تطبيق "جَوِّد"</strong>. يُعد
+                    "جَوِّد" لعبة تفاعلية تعليمية تهدف
+                    إلى
+                    تحسين وتصحيح مخارج الحروف بشكل فعال، باستخدام دروس تدمج بين التعليم النظري والعملي.
+                    تتيح اللعبة للمستخدمين اختبار تعلمهم مع الروبوت "جليل"، المطور باستخدام خوارزميات تعلم الآلة لتحليل
+                    تلاوة المستخدم وتقديم النصائح والتوجيهات. يتميز "جليل" بقدرته على محاكاة نطق المستخدم عند حدوث
+                    الأخطاء
+                    وتقديم تصحيحات فورية ودقيقة لمخارج الحروف والتجويد. كما يشمل التطبيق على اختبارات قصيرة نظرية وعملية
+                    لتقييم مستوى تعلم المستخدم بشكل مستمر، ويتيح له تحدي أصدقائه لتحفيزهم على تحسين مهاراتهم. بالإضافة
+                    إلى
+                    ذلك، يعرض التطبيق قائمة بأفضل المتعلمين، مما يشجع المستخدمين على التنافس والمضي قدماً في تحسين
+                    تلاوتهم
+                </p>
+            </div>
+            <button class="showButton"
+                onclick="window.location.href='https://www.figma.com/proto/M9QRS87QwJaEL3Yg9ootIS/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AC%D9%8E%D9%88%D9%91%D9%90%D8%AF?node-id=2163-514&p=f&t=ND0rW81Bs8rBLN0Y-1&scaling=scale-down&content-scaling=fixed&page-id=100%3A2004&starting-point-node-id=2652%3A698'">
+                Prototype</button>
+
+        </section>
+
+        <section>
+            <h2>#02 NASA Space App Challenge</h2>
+            <div class="card">
+                <img src="../Images/Haseel.png" alt="Haseel Logo">
+
+                <p>
+                    In 2024, we proudly participated in the <strong>NASA Space Apps Challenge</strong>, where our team
+                    developed an
+                    interactive educational game, "Haseel." The game is designed to teach students about sustainable
+                    green
+                    living and space exploration. Through creativity and teamwork, we earned a spot among the
+                    <strong>top 5
+                        teams</strong> in
+                    the Western Region of Saudi Arabia, making this experience a significant milestone in our journey of
+                    innovation and impact.
+                </p>
+            </div>
+            <button class="showButton"
+                onclick="window.location.href='https://www.figma.com/proto/4Vw0jQ1ExOmdFd51771A7C/Haseel-website?node-id=342-2&t=uRQiBEwX85MowgdP-1&starting-point-node-id=342%3A2'">
+                Prototype</button>
+        </section>
+
+        <section>
+            <h2>#03 Entrepreneurship Bootcamp</h2>
+            <div class="card">
+                <img src="../Images/monshaat1.jpeg" alt="Sneak Peek Logo">
+
+                <p>
+                    We proudly participated in the <strong>Entrepreneurship Bootcamp by Monsha'at</strong>, where we
+                    made several
+                    improvements and refinements to our project <strong>Sneak Peek</strong>. We gained invaluable
+                    insights from
+                    experienced
+                    entrepreneurs, helping us shape our business model and enhance our prototype. The experience was
+                    incredibly enriching, teaching us important lessons about the business market and what crucial
+                    details
+                    contribute to the success of any project. Through this bootcamp, we gained a deeper understanding of
+                    what it takes to thrive in the entrepreneurial world.
+                </p>
+            </div>
+
+            <button class="showButton"
+                onclick="window.location.href='https://www.figma.com/proto/zBnm7yvsPEY53kr0H7oGFm/Sneak-Peek-(Updated)?t=F6khaZQtxfPS0cd5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=0-796&starting-point-node-id=0%3A830'">
+                Prototype</button>
+        </section>
+    </section>
+
+
+    <section class="container" id="courses">
+        <h2>Courses</h2>
+        <section>
+            <h2>#01 Flutter Bootcamp by BambooGeeks</h2>
+            <div class="card">
+                <img src="../Images/flutter.jpg" alt="Flutter Logo">
+                <p>
+                    I participated in an intensive bootcamp focused on learning the <strong>Flutter framework by
+                        BambooGeeks</strong>,
+                    where we enhanced our skills in mobile app development. Throughout the boot camp, we worked on
+                    various tasks, including integrating APIs and building functional features for mobile applications.
+                    This experience was incredibly valuable as we gained new technical skills that will aid us in
+                    developing future projects.
+                </p>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>#02 Introduction to AI by KAUST Academy</h2>
+            <div class="card">
+                <img src="../Images/KaustAcademy.png" alt="Kaust Academy Logo">
+                <p>
+                    I attended the Introduction to Artificial Intelligence Course (AI Week) by KAUST Academy, where I
+                    learned the basics of Machine Learning, including regression and neural networks. It was a great
+                    introduction to AI concepts.
+                </p>
+            </div>
+
+        </section>
+    </section>
+
+    <section class="smallContainer" id="memberships">
+        <h2>Memberships</h2>
+
+        <div class="smallCards">
+            <div class="smallCard">
+                <img src="../Images/mawhibaAlumni.png" alt="Mawhiba Alumni Logo">
+                <p><strong class="largeText">Mawhiba Alumni</strong><br>Mawhiba Alumna</p>
+            </div>
+        </div>
+
+        <div class="smallCards">
+            <div class="smallCard">
+                <img src="../Images/GiftedUJ.jpg" alt="GiftedUJ Logo">
+                <p><strong class="largeText">Administration of Attracting & Nurturing Talented</strong><br>Member</p>
+            </div>
+        </div>
+
+        <div class="smallCards">
+            <div class="smallCard">
+                <img src="../Images/droneClub.png" alt="Drone Club Logo">
+                <p><strong class="largeText">Drone Club UJ</strong><br>Club Co-Leader</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="footer">
+            <div class="footer">
+                <div class="footerIcons">
+                    <a
+                        href="https://www.linkedin.com/in/joud-b-166528279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                        <img class="footerIcon" src="../Images/linkedin.png" alt="LinkedIn Logo" width="30" height="30">
+                    </a>
+                    <a href="https://github.com/Joud676">
+                        <img class="footerIcon" src="../Images/github.png" alt="Github Logo" width="30" height="30">
+                    </a>
+                    <a href="https://x.com/Joud1J_">
+                        <img class="footerIcon" src="../Images/xLogo.png" alt="X Logo" width="30" height="30">
+                    </a>
+                </div>
+
+                <p id="rights">
+                    &copy; 2025 Joud Batarfi. All Rights Reserved.
+                </p>
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
